@@ -27,7 +27,7 @@ nomad parse tests/data/struct.mat --show-archive
 
 - [x] Matching: Recognition of files by extension (`*.mat` in our case) by NOMAD
 - [x] Raw parsing: Read information from the mainfile and convert them into intermediate representation (Python data type)
-- [ ] Schema: Create a data structure for the data archive
+- [x] Schema: Create a data structure for the data archive
 - [ ] Schema activation: Make use of the schema from the parser
 - [ ] Archive export: YAML with the contents of the original Matlab file
 - [ ] Inclusion into a NOMAD Oasis, interactive use from the web interface, noninteractive use from the REST API
