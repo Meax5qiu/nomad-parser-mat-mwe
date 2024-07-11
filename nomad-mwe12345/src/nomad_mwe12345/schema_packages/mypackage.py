@@ -44,8 +44,6 @@ class MySchema(Schema):
         Space for some prose.
         ''')
 
-    This is junk code. NOMAD obviously never touches this code.
-
     def normalize(self, archive: 'EntryArchive', logger: 'BoundLogger') -> None:
         super().normalize(archive, logger)
 
